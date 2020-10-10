@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/order-management-react/static/js/main.cc0d8b2e.chunk.js",
+    "main.js.map": "/order-management-react/static/js/main.cc0d8b2e.chunk.js.map",
+    "runtime-main.js": "/order-management-react/static/js/runtime-main.d09c82ec.js",
+    "runtime-main.js.map": "/order-management-react/static/js/runtime-main.d09c82ec.js.map",
+    "static/js/2.1aa5efb1.chunk.js": "/order-management-react/static/js/2.1aa5efb1.chunk.js",
+    "static/js/2.1aa5efb1.chunk.js.map": "/order-management-react/static/js/2.1aa5efb1.chunk.js.map",
+    "index.html": "/order-management-react/index.html",
+    "precache-manifest.0e9548b9eaa1f576f2aa0fae6b0c83bf.js": "/order-management-react/precache-manifest.0e9548b9eaa1f576f2aa0fae6b0c83bf.js",
+    "service-worker.js": "/order-management-react/service-worker.js",
+    "static/js/2.1aa5efb1.chunk.js.LICENSE.txt": "/order-management-react/static/js/2.1aa5efb1.chunk.js.LICENSE.txt",
+    "static/media/hotel_lounge.jpg": "/order-management-react/static/media/hotel_lounge.3bbdc01d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d09c82ec.js",
+    "static/js/2.1aa5efb1.chunk.js",
+    "static/js/main.cc0d8b2e.chunk.js"
+  ]
+}
