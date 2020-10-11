@@ -16,7 +16,6 @@ function App() {
       </a>
 
       <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white">
-
         <nav className=" my-md-0 mr-md-3 navbar navbar-light bg-white fixed-top">
           <a className="navbar-brand text-danger" href="#">
             HOTEL LEOLA
@@ -71,7 +70,7 @@ function App() {
             <div className="row">
               <div className="col-4 pl-5  ">
                 <h1 className="display-4">CONTACT</h1>
-                <p className="lead font-weight-bold ">お問い合わせ</p>
+                <p className="lead font-weight-bold text-nowrap">お問い合わせ</p>
               </div>
             </div>
           </div>
@@ -79,8 +78,8 @@ function App() {
       </div>
 
       <div className="container">
-        <div className="row justify-content-md-center">
-          <div className="col-7 my-5">
+        <div className="row justify-content-center">
+          <div className="col-10 col-md-7 my-5">
             <p className="text-center">
               各種お問い合わせにつきまして、下記お問合せフォームをご使用ください。
               <br />
@@ -91,7 +90,7 @@ function App() {
       </div>
       <div className="container">
         <form>
-          <div className="row justify-content-md-center">
+          <div className="row justify-content-center">
             <div className="col-6">
               <div className="form-group row">
                 <div className="col-sm-11">
@@ -137,12 +136,12 @@ function App() {
             </div>
           </div>
           {/* /row */}
-          <div className="row justify-content-md-center">
+          <div className="row justify-content-center">
             <div className="col-6 my-2">
               <p>御住所</p>
             </div>
           </div>
-          <div className="row justify-content-md-center">
+          <div className="row justify-content-center">
             <div className="col-5">
               <div className="form-group">
                 <input type="text" className="form-control" id="city" placeholder="都道府県" />
@@ -156,7 +155,7 @@ function App() {
             </div>
           </div>
           {/* /row */}
-          <div className="row justify-content-md-center ">
+          <div className="row justify-content-center ">
             <div className="col-6 form-inline border-bottom border-dark my-2">
               <div className="mr-4">
                 <span>
@@ -184,21 +183,21 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="row justify-content-md-center ">
+          <div className="row justify-content-center ml-3">
             <div className="col-6 mt-3">
               <div className="form-group">
-                <div className="col-sm-11">
-                  <textarea className="form-control" id="inquiry" rows={6} />
+                <div className="col-11">
+                  <textarea className="form-control" id="inquiry" placeholder="お問い合わせ内容" rows={6} />
                 </div>
-                <label className="col-sm-1 col-form-label" htmlFor="inquiry">
+                <label className="col-1 col-form-label" htmlFor="inquiry">
                   <span className="badge badge-danger">必須</span>
                 </label>
               </div>
             </div>
           </div>
-          <div className="row justify-content-md-center mb-5">
-            <div className="col-2">
-              <button type="submit" className="btn btn-primary btn-lg btn-block ">
+          <div className="row justify-content-center mb-5 ml-sm-3">
+            <div className="col-2 ">
+              <button type="submit" className="btn btn-primary btn-lg text-nowrap">
                 送信
               </button>
             </div>
@@ -207,11 +206,11 @@ function App() {
       </div>
       {/* container */}
       <div className="container  py-5">
-        <div className="row justify-content-md-center ">
-          <div className="col-6 ">
-            <div>
+        <div className="row justify-content-center ">
+          <div className="col-6">
+            <div className="">
               <h3 className="text-center text-danger ">HOTEL LEOLA</h3>
-              <p className=" pl-5">
+              <p className="pl-5 ml-sm-3">
                 〒xxx-xxxx 大阪市東成区東小橋 1-3-4
                 <br />
                 TEL:XXX-XXXX-XXXX MAIL:XXXXXXX@XXXXX
@@ -221,9 +220,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-md-center ">
-          <div className="col-3 my-3">
-            <button type="button" className="btn btn-dark btn-lg btn-block ">
+        <div className="row justify-content-center ">
+          <div className="my-3 ml-3 mr-lg-5">
+            <button type="button" className="btn btn-dark btn-lg text-nowrap">
               <div className="border-bottom">CONTACT</div>
               <div>お問い合わせ</div>
             </button>
