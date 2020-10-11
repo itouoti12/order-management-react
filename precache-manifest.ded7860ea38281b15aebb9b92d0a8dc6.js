@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8073db8ba491d97e088c765522170989",
+    "revision": "fe0d8b57a7491cfde86237d2f48ea5f8",
     "url": "/order-management-react/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/order-management-react/static/js/2.1aa5efb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "554a3c0d2e36d43d5c1f",
-    "url": "/order-management-react/static/js/main.b55e6584.chunk.js"
+    "revision": "aaa222b2fc12e7a7b71c",
+    "url": "/order-management-react/static/js/main.b1dd2a96.chunk.js"
   },
   {
     "revision": "cdda027455e49f7a7814",
