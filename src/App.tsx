@@ -209,13 +209,13 @@ function App() {
         <div className="row justify-content-center ">
           <div className="col-6">
             <div className="">
-              <h3 className="text-center text-danger ">HOTEL LEOLA</h3>
-              <p className="pl-5 ml-sm-3">
-                〒xxx-xxxx 大阪市東成区東小橋 1-3-4
+              <h3 className="text-center text-danger mr-lg-4 ">HOTEL LEOLA</h3>
+              <p className=" ml-md-5 pl-lg-3 pl-xl-5">
+                <span className="text-nowrap">〒xxx-xxxx 大阪市東成区東小橋 1-3-4</span>
                 <br />
                 TEL:XXX-XXXX-XXXX MAIL:XXXXXXX@XXXXX
                 <br />
-                JR 大阪環状線　玉造駅より徒歩１分
+                <span className="text-nowrap">JR 大阪環状線　玉造駅より徒歩１分</span>
               </p>
             </div>
           </div>
